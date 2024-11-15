@@ -3,6 +3,7 @@
 <task id="task_id1">
     <title>First Task</title>
     <shortdesc>This is a short description of the task.</shortdesc>
+    <taskbody>
     <prereq>
         <p>Before you begin, ensure you have the following:</p>
         <ul>
@@ -22,4 +23,5 @@
             <cmd>Step 3: Description of the third step.</cmd>
         </step>
     </steps>
+</taskbody>
 </task>
