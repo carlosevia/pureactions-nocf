@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Experiment</title>
+    <topicref href="index.dita"/>
     <topicref href="task1.dita"/>
     <topicref href="task2.dita"/>
 </map>
