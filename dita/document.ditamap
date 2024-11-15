@@ -5,5 +5,5 @@
     <topicref href="index.dita"/>
     <topicref href="task1.dita"/>
     <topicref href="task2.dita"/>
-    <topicref href="task3.md" format="markdown"/>
+    <topicref href="task3.md" format="mdita"/>
 </map>
