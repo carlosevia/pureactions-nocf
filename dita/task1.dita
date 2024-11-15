@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_id1">
+    <title>First Task</title>
+    <shortdesc>This is a short description of the task.</shortdesc>
+    <prereq>
+        <p>Before you begin, ensure you have the following:</p>
+        <ul>
+            <li>Prerequisite 1</li>
+            <li>Prerequisite 2</li>
+            <li>Prerequisite 3</li>
+        </ul>
+    </prereq>
+    <steps>
+        <step>
+            <cmd>Step 1: Description of the first step.</cmd>
+        </step>
+        <step>
+            <cmd>Step 2: Description of the second step.</cmd>
+        </step>
+        <step>
+            <cmd>Step 3: Description of the third step.</cmd>
+        </step>
+    </steps>
+</task>
