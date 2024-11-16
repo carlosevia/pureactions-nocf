@@ -1,12 +1,39 @@
 @charset"UTF-8";
 :root,
 [data-bs-theme=light] {
-  --bs-blue: #660000;
-  --bs-indigo: #660000;
-  --bs-purple: #660000;
-  --bs-pink: #FF6600;
-  --bs-red: #FF6600;
-  --bs-orange: #FF6600;
+  --bs-blue: #0055aa;
+  --bs-indigo: #004488;
+  --bs-purple: #003366;
+  --bs-pink: #ffd700;
+  --bs-red: #ffcc00;
+  --bs-orange: #ffb700;
+  --bs-yellow: #ffd700;
+  --bs-green: #0066cc;
+  --bs-teal: #787878;
+  --bs-cyan: #787878;
+  --bs-black: #000000;
+  --bs-white: #FFFFFF;
+  --bs-gray: #787878;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f8f9fa;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #6c757d;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #212529;
+  --bs-primary: #0055aa;
+  --bs-secondary: #ffd700;
+  --bs-success: #0066cc;
+  --bs-info: #787878;
+  --bs-warning: #ffcc00;
+  --bs-danger: #ffb700;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+}
+s-orange: #FF6600;
   --bs-yellow: #FF6600;
   --bs-green: #660000;
   --bs-teal: #787878;
