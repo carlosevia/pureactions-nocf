@@ -11,9 +11,11 @@ jobs:
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
+
       - name: Build Bootstrap ⚙️
-         uses: dita-ot/dita-ot-action@master
-         with: dita-ot-version: 4.1
+        uses: dita-ot/dita-ot-action@master
+        with:
+          dita-ot-version: 4.1
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
@@ -28,8 +30,9 @@ jobs:
             fox.jason.open-graph
           project: .github/dita-ot/html.xml
           # If you have a DITAVal, add the following:
-          # -- build: | 
-            #  dita -i dita/document.ditamap -o out/html -f html5 --filter=myfilter.ditaval
+          # build: | 
+          #   dita -i dita/document.ditamap -o out/html -f html5 --filter=myfilter.ditaval
+
       - name: Deploy HTML 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
