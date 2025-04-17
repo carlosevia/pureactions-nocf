@@ -15,7 +15,7 @@ jobs:
       - name: Build Bootstrap ⚙️
         uses: dita-ot/dita-ot-action@master
         with:
-          dita-ot-version: 4.3.1
+          dita-ot-version: 4.3
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
@@ -42,7 +42,7 @@ jobs:
       - name: Build PDF 🖨️
         uses: dita-ot/dita-ot-action@master
         with:
-          dita-ot-version: 4.3.1
+          dita-ot-version: 4.3
           install: |
             apt-get update -q
             export DEBIAN_FRONTEND=noninteractive
