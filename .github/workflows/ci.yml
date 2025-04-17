@@ -12,7 +12,7 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
       - name: Build Bootstrap ⚙️
-        uses: dita-ot/dita-ot-action@v4.3.1
+        uses: dita-ot/dita-ot-action@4.1
         with:
           install: |
             apt-get update -q
