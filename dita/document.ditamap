@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
   <title>Diccionario Maya Popular</title>
+  <topicref href="index.dita"/>
   <topicref href="a.dita"/>
   <topicref href="a_adj.dita"/>
   <topicref href="a_pron.dita"/>
