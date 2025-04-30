@@ -52,14 +52,14 @@
     if (html.length) {
       return html.join("");
     } else {
-      return "<p>Your search returned no results</p>";
+      return "<p>La búsqueda no arrojó resultados</p>";
     }
   }
 
   function formatResults(results) {
     return `<article role="article">
         <div class="modal-header justify-content-between">
-            <h1>Search Results</h1>
+            <h1>Resultados de la búsquedas</h1>
             <button type="button" class="btn-close search-close" aria-label="Close"/>
         </div>
         <div class="modal-body">
