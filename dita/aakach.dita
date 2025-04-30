@@ -2,6 +2,7 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="aakach">
   <title>ÁAKACH</title>
+  <shortdesc>Tábano.</shortdesc>
   <prolog>
  <metadata>
   <keywords>
@@ -9,6 +10,5 @@
    </keywords>
  </metadata>
 </prolog>
-  <shortdesc>Tábano.</shortdesc>
-  <body/>
+    <body/>
 </topic>
