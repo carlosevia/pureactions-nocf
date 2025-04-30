@@ -32,6 +32,7 @@
       <param name="bootstrap.css.section.title" value="h4 text-secondary"/>
       <param name="open-graph.url" value="https://jason-fox.github.io/dita-ot-plugins"/>
       <param name="prism.use.theme" value="solarized"/>
+      <param name="default.language" value="es-419"/>
     </publication>
   </deliverable>
 </project>
